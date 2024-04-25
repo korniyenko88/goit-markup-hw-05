@@ -432,6 +432,24 @@ g .section-three {
   color: #434455;
 }
 
+/* Модальне вікно */
+.modal-overlay{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2E2F42;
+  z-index: 999;
+  width: 100;
+  height: 100;
+}
+.modal {
+  background-color: tomato;
+  z-index: 999;
+}
+
+
+
 /*початок футера*/
 
 .bottom-page {
