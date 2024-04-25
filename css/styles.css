@@ -709,7 +709,7 @@ g .section-three {
   display: flex;
   gap: 24px;
 }
-.footer-input {
+.subscribe-item {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
