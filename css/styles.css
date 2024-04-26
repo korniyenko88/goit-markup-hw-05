@@ -703,6 +703,13 @@ g .section-three {
   padding-left: 4px;
   color: #404bbf;;
 }
+
+.custom-checkbox:checked .alt-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+}
+
 .bottom-send {
   background-color: #4D5AE5;
   min-width: 169px;
