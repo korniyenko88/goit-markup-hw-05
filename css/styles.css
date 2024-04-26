@@ -633,7 +633,7 @@ g .section-three {
 .modal-item:focus {
   border-color: #4D5AE5;
 }
-.modal-item:focus + .icon-username .icon-person {
+.modal-item:focus + .icon-person {
   fill: #4D5AE5;
 }
 
@@ -668,6 +668,9 @@ g .section-three {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.usercoment:focus {
+  border-color: #4D5AE5;
+}
 
 .modal-box {
   margin-bottom: 24px;
@@ -695,28 +698,10 @@ g .section-three {
     
 }
 
-:root {
-  --bg-color: #404bbf;
-  --icon-color: #F4F4FD;
-}
-#checkbox:checked + .alt-checkbox {
-  background-color: var(--bg-color);
-  border: none;
-}
-#checkbox:checked + .alt-checkbox {
-  fill: var(--icon-color);
-}
 
-
-:root {
-  --main-color: #4d5ae5;
-}
-
-.chek-link {
-  color: var(--main-color);
-}
 .check-link {
   padding-left: 4px;
+  color: #404bbf;;
 }
 .bottom-send {
   background-color: #4D5AE5;
