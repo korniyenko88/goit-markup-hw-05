@@ -524,7 +524,7 @@ g .section-three {
 
  /* Модальне вікно */
  .modal-overlay:not(.is-open) {
-  display: none;
+  display: ;
 }
 
 
@@ -583,7 +583,7 @@ g .section-three {
   border: none;
 }
 
-.close-button {
+.close-modal {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-button:hover svg {
@@ -626,7 +626,8 @@ g .section-three {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-color: #4D5AE5;
+  
+  
 
 }
 .modal-item:focus {
