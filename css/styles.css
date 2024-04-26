@@ -704,8 +704,11 @@ g .section-three {
   color: #404bbf;;
 }
 
-.custom-checkbox:checked .alt-checkbox {
-  background-color: #404bbf;
+.custom-checkbox:checked + .custom-text-checkbox .alt-checkbox {
+  background-color:  #404bbf;
+}
+
+.custom-checkbox:checked + .custom-text-checkbox .alt-checkbox {
   border: none;
   fill: #F4F4FD;
 }
